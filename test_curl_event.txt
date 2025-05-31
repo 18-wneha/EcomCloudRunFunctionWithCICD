@@ -1,4 +1,4 @@
-curl -X POST https://cloud-run-function-with-cicd-715970340101.us-central1.run.app \
+curl -X POST https://ecomm-cloud-run-function-with-cicd-632008083391.europe-west1.run.app \
 -H "Authorization: bearer $(gcloud auth print-identity-token)" \
 -H "Content-Type: application/json" \
 -d '{
@@ -21,7 +21,7 @@ curl -X POST https://cloud-run-function-with-cicd-715970340101.us-central1.run.a
     }
   ],
   "shipping_address": {
-    "line1":       "123 Tech Park Rd",
+    "line1":       "127 Tech Park Rd",
     "line2":       "Suite 400",
     "city":        "San Francisco",
     "state":       "CA",
