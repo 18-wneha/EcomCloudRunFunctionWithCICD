@@ -21,6 +21,7 @@ def order_event(request):
     """
     HTTP Cloud Run Function to handle 'order.created' events.
     Expects a rich JSON payload (see utils/order_utils.validate_payload).
+    Output will be json response
     """
 
     logger.info("Received %s %s", request.method, request.path)
